@@ -1,4 +1,4 @@
-import { ColorConverter } from './components/colourConverter/colourConverter'
+import { ColorConverter } from './components/colorConverter/colorConverter'
 import './App.css'
 
 function App() {
