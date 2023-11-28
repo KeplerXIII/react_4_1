@@ -2,8 +2,8 @@ import { useRef } from 'react';
 import { hexToRgb } from './hexToRGB';
 
 export function ColorConverter(): React.ReactNode {
-  const colorDivRef = useRef<HTMLDivElement | null>(null);
-  const newColourDivRef = useRef<HTMLDivElement | null>(null);
+  const colorDivRef = useRef<HTMLDivElement>(null);
+  const newColourDivRef = useRef<HTMLDivElement>(null);
 
   const changeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = e.target.value;
